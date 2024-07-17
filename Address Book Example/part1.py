@@ -1,3 +1,10 @@
+'''
+
+这是一个简单的 地址簿 小软件
+'''
+
+
+
 import sys
 
 from PySide6.QtCore import Qt, Slot
@@ -5,8 +12,6 @@ from PySide6.QtWidgets import (QApplication, QGridLayout,
                                QHBoxLayout, QLabel, QLineEdit,
                                QMessageBox, QPushButton, QTextEdit,
                                QVBoxLayout, QWidget)
-
-
 
 class SortedDict(dict):
     class Iterator(object):
